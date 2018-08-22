@@ -40,7 +40,7 @@ hashCode ： Object 的 native方法 , 获取对象的哈希值，用于确定�
 
 在Java中，引用类型的变量存储的并不是“值”本身，而是与其关联的对象在内存中的地址。比如下面这行代码，
 
-```
+```css
  String str1
 ```
 
@@ -68,7 +68,7 @@ str1= new String("hello");
 　　 
 　　在 Object 中的声明：
 
-```
+```css
     public boolean equals(Object obj) {}
 ```
 
@@ -79,7 +79,7 @@ str1= new String("hello");
 
 　为了更直观地理解equals方法的作用，我们先看Object类中equals方法的实现。
 
-```
+```css
   public boolean equals(Object obj) {
     return (this == obj);
   }
@@ -89,7 +89,7 @@ str1= new String("hello");
 
 但我们都知道，下面代码输出为 true:
 
-```
+```css
 
 
 
@@ -210,7 +210,7 @@ public native int hashCode();
 
 　String 类是这样重写它的：
 
-```
+```css
 
 
 
